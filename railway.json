@@ -1,0 +1,10 @@
+{
+  "build": {"builder": "NIXPACKS"},
+  "startCommand": "npm run start"
+}
+// Or specify a custom start command
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {"builder": "NIXPACKS"},
+  "startCommand": "gunicorn main:app"
+}
